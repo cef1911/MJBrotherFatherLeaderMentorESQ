@@ -27,9 +27,6 @@ st.write("##")
 image = Image.open("oppfMJ.PNG")
 st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"Omega Man"</p>'
 
-#oppfMJ = '<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"Omega Man"</p>'
-#st.markdown(oppfMJ, unsafe_allow_html=True)
-#st.image(image, channels="BGR")
 
 #image = Image.open("twistedpizzasf.PNG")
 
@@ -54,16 +51,3 @@ st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"
 
 #st.snow()
 
-#col1, col2, col3 = st.columns(3)
-
-#with col1:
-   #st.header("Michael Jefferson Que")
-   #st.image("oppfMJ.jpeg")
-
-#with col2:
-   #st.header("A dog")
-   #st.image("https://static.streamlit.io/examples/dog.jpg")
-
-#with col3:
-   #st.header("An owl")
-   #st.image("https://static.streamlit.io/examples/owl.jpg")
