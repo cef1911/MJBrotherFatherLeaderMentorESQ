@@ -32,8 +32,8 @@ st.image(image, caption='Omega Man!!')
 
 #st.write("Tribute To Stacey Franklin")
 
-
-#imagetwo = Image.open("birthday.jpeg")
+st.markdown('<p class="big-font">Leader</p>', unsafe_allow_html=True)
+imagetwo = Image.open(".jpeg")
 
 #st.image(imagetwo, caption='Amanda Franklin')
 
