@@ -52,7 +52,7 @@ st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"
 
 #st.balloons()
 
-st.snow()
+#st.snow()
 
 #col1, col2, col3 = st.columns(3)
 
