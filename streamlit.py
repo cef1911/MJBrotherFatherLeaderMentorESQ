@@ -41,7 +41,7 @@ st.image(imagetwo, caption='Kiyama Movement Creator')
 
 st.markdown('<p class="big-font">Author</p>', unsafe_allow_html=True)
 imagetwo = Image.open("author.jpeg")
-st.image(imagetwo, caption='Author')
+st.image(imagetwo)
 
 #imagethree = Image.open("memories.png")
 
