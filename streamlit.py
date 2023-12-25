@@ -35,9 +35,9 @@ st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"
 #st.write("Tribute To Stacey Franklin")
 
 
-# imagetwo = Image.open("birthday.jpeg")
+#imagetwo = Image.open("birthday.jpeg")
 
-# st.image(imagetwo, caption='Amanda Franklin')
+#st.image(imagetwo, caption='Amanda Franklin')
 
 
 #imagethree = Image.open("memories.png")
