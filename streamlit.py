@@ -18,13 +18,29 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 #st.markdown('<p class="big-font">Merry Christmas To Stacey Franklin!!</p>', unsafe_allow_html=True)
-st.markdown('<p class="big-font">Merry Christmas To Stacey Franklin!!</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Merry Christmas, Happy Kwanzaa, and Happy New Year To My Prophyte and Friend Michael Jefferson!!</p>', unsafe_allow_html=True)
 
-image = Image.open("twistedpizzasf.PNG")
+st.markdown('<p class="big-font">"Heartfelt Tribute and Thank You Que from Chris Franklin"</p>', unsafe_allow_html=True)
 
-st.image(image, caption='Stacey Franklin, Merry Christmas 2023')
+col1, col2, col3 = st.columns(3)
 
-st.write("Tribute To Stacey Franklin")
+with col1:
+   st.header("Michael Jefferson Que")
+   st.image("oppfMJ.jpeg")
+
+with col2:
+   st.header("A dog")
+   st.image("https://static.streamlit.io/examples/dog.jpg")
+
+with col3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg")
+
+#image = Image.open("twistedpizzasf.PNG")
+
+#st.image(image, caption='Stacey Franklin, Merry Christmas 2023')
+
+#st.write("Tribute To Stacey Franklin")
 
 
 # imagetwo = Image.open("birthday.jpeg")
@@ -32,12 +48,12 @@ st.write("Tribute To Stacey Franklin")
 # st.image(imagetwo, caption='Amanda Franklin')
 
 
-imagethree = Image.open("memories.png")
+#imagethree = Image.open("memories.png")
 
-st.image(imagethree, caption='Stacey Franklin')
+#st.image(imagethree, caption='Stacey Franklin')
 
 
-st.write("Love You Stacey, Chris")
+#st.write("Love You Stacey, Chris")
 
 st.balloons()
 
