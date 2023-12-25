@@ -24,13 +24,11 @@ st.markdown('<p class="big-font">"Heartfelt Tribute and Thank You Que, from Chri
 st.write("##")
 
 
-image = Image.open("oppfMJ.jpeg")
+
 #st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"Omega Man"</p>'
 st.markdown('<p class="big-font">Omega Man!!</p>', unsafe_allow_html=True)
-
-#image = Image.open("twistedpizzasf.PNG")
-
-#st.image(image, caption='Stacey Franklin, Merry Christmas 2023')
+image = Image.open("oppfMJ.jpeg")
+st.image(image, caption='Omega Man!!')
 
 #st.write("Tribute To Stacey Franklin")
 
