@@ -44,11 +44,14 @@ imagefour = Image.open("author.jpeg")
 st.image(imagefour)
 
 st.markdown('<p class="big-font">Leader and Esquire</p>', unsafe_allow_html=True)
-imagefour = Image.open("NHMJ.jpeg")
-imagefive = Image.open("ESQ.jpeg")
-st.image(imagefour)
-st.image(imagefive)
+imagefive = Image.open("NHMJ.jpeg")
+imagesix = Image.open("ESQ.jpeg")
+st.image(imagefive, caption='Leader')
+st.image(imagesix, caption='Esquire')
 
+st.markdown('<p class="big-font">Friend</p>', unsafe_allow_html=True)
+imageseven = Image.open("friend.jpeg")
+st.image(imageseven)
 
 st.balloons()
 
