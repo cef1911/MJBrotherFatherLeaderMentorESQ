@@ -26,17 +26,18 @@ st.write("##")
 
 
 #st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"Omega Man"</p>'
+
 st.markdown('<p class="big-font">Omega Man</p>', unsafe_allow_html=True)
 image = Image.open("oppfMJ.jpeg")
 st.image(image, caption='Omega Man!!')
 
-#st.write("Tribute To Stacey Franklin")
-
-st.markdown('<p class="big-font">Leader</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Sophiscated Voter Advocate</p>', unsafe_allow_html=True)
 imagetwo = Image.open("BVoteMJ.jpeg")
+st.image(imagetwo, caption='Sophiscated Voter Advocate')
 
-st.image(imagetwo, caption='Leader')
-
+st.markdown('<p class="big-font">Kiyama Movement Creator</p>', unsafe_allow_html=True)
+imagetwo = Image.open("KMMJ.jpeg")
+st.image(imagetwo, caption='Kiyama Movement Creator')
 
 #imagethree = Image.open("memories.png")
 
