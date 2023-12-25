@@ -36,19 +36,19 @@ imagetwo = Image.open("BVoteMJ.jpeg")
 st.image(imagetwo, caption='Sophiscated Voter Advocate')
 
 st.markdown('<p class="big-font">Kiyama Movement Creator</p>', unsafe_allow_html=True)
-imagetwo = Image.open("KMMJ.jpeg")
-st.image(imagetwo, caption='Kiyama Movement Creator')
+imagethree = Image.open("KMMJ.jpeg")
+st.image(imagethree, caption='Kiyama Movement Creator')
 
 st.markdown('<p class="big-font">Author</p>', unsafe_allow_html=True)
-imagetwo = Image.open("author.jpeg")
-st.image(imagetwo)
+imagefour = Image.open("author.jpeg")
+st.image(imagefour)
 
-#imagethree = Image.open("memories.png")
+st.markdown('<p class="big-font">Leader and Esquire</p>', unsafe_allow_html=True)
+imagefour = Image.open("NHMJ.jpeg")
+imagefive = Image.open("ESQ.jpeg")
+st.image(imagefour)
+st.image(imagefive)
 
-#st.image(imagethree, caption='Stacey Franklin')
-
-
-#st.write("Love You Stacey, Chris")
 
 #st.balloons()
 
