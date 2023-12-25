@@ -53,5 +53,5 @@ st.image(imagefive)
 st.balloons()
 
 st.markdown('<p class="big-font">Happy Holidays Prophyte! Chris</p>', unsafe_allow_html=True)
-#st.snow()
+st.snow()
 
