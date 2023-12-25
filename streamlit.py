@@ -50,7 +50,7 @@ st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"
 
 #st.write("Love You Stacey, Chris")
 
-st.balloons()
+#st.balloons()
 
 st.snow()
 
