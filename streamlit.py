@@ -33,9 +33,9 @@ st.image(image, caption='Omega Man!!')
 #st.write("Tribute To Stacey Franklin")
 
 st.markdown('<p class="big-font">Leader</p>', unsafe_allow_html=True)
-imagetwo = Image.open(".jpeg")
+imagetwo = Image.open("BVoteMJ.jpeg")
 
-#st.image(imagetwo, caption='Amanda Franklin')
+st.image(imagetwo, caption='Leader')
 
 
 #imagethree = Image.open("memories.png")
