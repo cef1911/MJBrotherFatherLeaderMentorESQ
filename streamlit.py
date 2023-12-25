@@ -26,7 +26,7 @@ st.write("##")
 
 
 #st.markdown('<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"Omega Man"</p>'
-st.markdown('<p class="big-font; color:Purple">Omega Man</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">Omega Man</p>', unsafe_allow_html=True)
 image = Image.open("oppfMJ.jpeg")
 st.image(image, caption='Omega Man!!')
 
