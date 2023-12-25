@@ -23,10 +23,11 @@ st.write("##")
 st.markdown('<p class="big-font">"Heartfelt Tribute and Thank You Que, from Chris Franklin"</p>', unsafe_allow_html=True)
 st.write("##")
 
+oppfMJ = '<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"Omega Man"</p>'
 image = Image.open("oppfMJ.PNG")
 oppfMJ = '<p style="font-family:sans-serif; color:Purple; font-size: 42px;">"Omega Man"</p>'
 st.markdown(oppfMJ, unsafe_allow_html=True)
-st.image(image, channels="BGR")
+#st.image(image, channels="BGR")
 
 #image = Image.open("twistedpizzasf.PNG")
 
