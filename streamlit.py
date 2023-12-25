@@ -39,6 +39,10 @@ st.markdown('<p class="big-font">Kiyama Movement Creator</p>', unsafe_allow_html
 imagetwo = Image.open("KMMJ.jpeg")
 st.image(imagetwo, caption='Kiyama Movement Creator')
 
+st.markdown('<p class="big-font">Author</p>', unsafe_allow_html=True)
+imagetwo = Image.open("deovindice.jpeg")
+st.image(imagetwo, caption='Author')
+
 #imagethree = Image.open("memories.png")
 
 #st.image(imagethree, caption='Stacey Franklin')
