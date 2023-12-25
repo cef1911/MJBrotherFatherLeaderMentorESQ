@@ -51,7 +51,7 @@ st.image(imagesix, caption='Esquire')
 
 st.markdown('<p class="big-font">Friend</p>', unsafe_allow_html=True)
 imageseven = Image.open("friend.jpeg")
-st.image(imageseven)
+st.image(imageseven, caption='Friend')
 
 st.balloons()
 
