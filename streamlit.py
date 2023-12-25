@@ -17,7 +17,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-#st.markdown('<p class="big-font">Merry Christmas To Stacey Franklin!!</p>', unsafe_allow_html=True)
+
 st.markdown('<p class="big-font">Merry Christmas, Happy Kwanzaa, and Happy New Year To My Prophyte and Friend Michael Jefferson!!</p>', unsafe_allow_html=True)
 st.write("##")
 st.markdown('<p class="big-font">"Heartfelt Tribute and Thank You Que, from Chris Franklin"</p>', unsafe_allow_html=True)
@@ -50,7 +50,8 @@ st.image(imagefour)
 st.image(imagefive)
 
 
-#st.balloons()
+st.balloons()
 
+st.markdown('<p class="big-font">Happy Holidays Prophyte! Chris</p>', unsafe_allow_html=True)
 #st.snow()
 
