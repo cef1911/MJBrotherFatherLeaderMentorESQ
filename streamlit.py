@@ -22,19 +22,19 @@ st.markdown('<p class="big-font">Merry Christmas, Happy Kwanzaa, and Happy New Y
 
 st.markdown('<p class="big-font">"Heartfelt Tribute and Thank You Que from Chris Franklin"</p>', unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+#col1, col2, col3 = st.columns(3)
 
-with col1:
-   st.header("Michael Jefferson Que")
-   st.image("oppfMJ.jpeg")
+#with col1:
+   #st.header("Michael Jefferson Que")
+   #st.image("oppfMJ.jpeg")
 
-with col2:
-   st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg")
+#with col2:
+   #st.header("A dog")
+   #st.image("https://static.streamlit.io/examples/dog.jpg")
 
-with col3:
-   st.header("An owl")
-   st.image("https://static.streamlit.io/examples/owl.jpg")
+#with col3:
+   #st.header("An owl")
+   #st.image("https://static.streamlit.io/examples/owl.jpg")
 
 #image = Image.open("twistedpizzasf.PNG")
 
